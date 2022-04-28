@@ -1,0 +1,135 @@
+#title {
+  font-size: 5rem;
+  letter-spacing: 2.5rem;
+  text-indent: 2.5rem;
+}
+
+#description {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+body {
+  font-family: 'Noto Serif TC', serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+a {
+	color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#main {
+  margin: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.color1 {
+  background-color: #EEEEEE;
+}
+
+.color2 {
+  background-color: white;
+}
+
+header {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  padding: 2rem 0;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  max-width: 1491px;
+  object-fit: none;
+  object-position: 50% 56%;
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+#tribute-info {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #title {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-indent: 0.5rem;
+  }
+
+  #description {
+    font-size: 1.0rem;
+    letter-spacing: 0.1rem;
+    text-indent: 0.1rem;
+  }
+
+  #main {
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-indent: 0.5rem;
+  }
+
+  #description {
+    font-size: 1.0rem;
+    letter-spacing: 0.1rem;
+    text-indent: 0.1rem;
+  }
+  
+  body {
+	  margin: 0;
+  }
+  #main {
+    margin: 0;
+    border-radius: 0;
+  }
+}

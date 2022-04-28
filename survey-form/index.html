@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>freeCodeCamp: Survey Form</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">We would like to hear your feedback. Thank you for taking the time to help us improve the course!</p>
+    </header>
+
+    <main>
+      <form id="survey-form" class="" action="index.html" method="post">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" name="name" value="" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" name="email" value="" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label id="number-label" for="number">Age</label>
+          <input id="number" type="number" name="age" value="" min="0" max="120" placeholder="Age">
+        </div>
+
+        <div class="form-group">
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" class="">
+            <option disabled="" selected="" value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full-time job</option>
+            <option value="part-time-job">Part-time job</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>What topic most interest you?</p>
+          <label for="html"><input type="radio" id="html" name="area-to-improve" value="HTML">HTML</label>
+
+          <label for="css"><input type="radio" id="css" name="area-to-improve" value="CSS">CSS</label>
+
+          <label for="javascript"><input type="radio" id="javascript" name="area-to-improve" value="JavaScript">JavaScript</label>
+        </div>
+
+        <div class="form-group">
+          <p>What would you like to learn next?</p>
+          <label for="python"><input type="checkbox" id="python" name="python" value="python">Python</label>
+
+          <label for="java"><input type="checkbox" id="java" name="java" value="java">Java</label>
+
+          <label for="reactjs"><input type="checkbox" id="reactjs" name="reactjs" value="reactjs">React.js</label>
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea name="comments" rows="5" placeholder="Enter your comment here..." autocomplete="off"></textarea>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" id="submit" value="Submit">
+        </div>
+      </form>
+
+    </main>
+
+    <footer>
+      <p>2022 &copy; Leo Hong</p>
+    </footer>
+  </div>
+</body>
+
+</html>

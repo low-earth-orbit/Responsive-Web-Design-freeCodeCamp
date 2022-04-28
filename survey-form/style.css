@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  padding-top: 2rem;
+  margin: auto;
+  width: 600px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 400px;
+  }
+}
+
+header, footer {
+  text-align: center;
+}
+
+#title {
+  font-size: 2rem;
+}
+
+#description {
+  font-style: italic;
+}
+
+main {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+input {
+  width: 100%;
+  font-family: inherit;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: inherit;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+
+}
+
+label {
+  display: block;
+}
+
+.form-group {
+  margin: 0 auto 2rem auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+textarea, select {
+  width: 100%;
+  font-family: inherit;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  font-size: inherit;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#submit {
+  background-color: green;
+  border: none;
+  color: white;
+  width: auto;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
