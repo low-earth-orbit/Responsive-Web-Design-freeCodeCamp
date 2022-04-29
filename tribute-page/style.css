@@ -1,7 +1,7 @@
 #title {
   font-size: 5rem;
-  letter-spacing: 2.5rem;
-  text-indent: 2.5rem;
+  letter-spacing: 3rem;
+  text-indent: 3rem;
 }
 
 #description {
@@ -11,9 +11,17 @@
 }
 
 body {
-  font-family: 'Noto Serif TC', serif;
+  font-family: Roboto, 'Noto Sans TC', sans-serif;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif TC', serif;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
 }
 
 a {
@@ -74,8 +82,10 @@ figure {
 }
 
 figcaption {
+  font-size: 1rem;
   margin: 0.5rem 0;
   text-align: center;
+  padding: 0 1rem;
 }
 
 #tribute-info {
@@ -93,43 +103,23 @@ footer p {
   font-size: 0.8rem;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 768px) {
   #title {
-    font-size: 2.5rem;
-    letter-spacing: 0.5rem;
-    text-indent: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
   }
 
   #description {
-    font-size: 1.0rem;
-    letter-spacing: 0.1rem;
-    text-indent: 0.1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-indent: 0.2rem;
   }
 
-  #main {
-    margin: 1rem;
-    border-radius: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #title {
-    font-size: 2.5rem;
-    letter-spacing: 0.5rem;
-    text-indent: 0.5rem;
-  }
-
-  #description {
-    font-size: 1.0rem;
-    letter-spacing: 0.1rem;
-    text-indent: 0.1rem;
-  }
-  
-  body {
-	  margin: 0;
-  }
   #main {
     margin: 0;
     border-radius: 0;
+    overflow: hidden;
   }
 }
