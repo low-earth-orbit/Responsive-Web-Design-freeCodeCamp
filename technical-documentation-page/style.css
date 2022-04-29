@@ -1,0 +1,82 @@
+body {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  color: purple;
+}
+
+#body-wrapper {
+  margin: auto;
+  width: auto;
+  max-width: 70rem;
+  padding: 2rem;
+}
+
+#navbar {
+  position: fixed;
+  width: 18rem;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#navbar li a {
+  display: block;
+  color: #000;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.main-section{
+  margin-left: 22rem;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+  }
+
+  .main-section{
+    margin-left: 0;
+  }
+
+  #navbar li {
+    float: left;
+    background-color: #f1f1f1;
+  }
+
+
+}

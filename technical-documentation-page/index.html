@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>CSS: Cascading Style Sheets | Technical Documentation Page</title>
+</head>
+
+<body>
+  <div id="body-wrapper">
+    <nav id="navbar">
+      <header>
+        <h1>CSS: Cascading Style Sheets</h1>
+      </header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Key_Resources">Key Resources</a></li>
+        <li><a class="nav-link" href="#Tutorials">Tutorials</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+        <li><a class="nav-link" href="#Source">Source</a></li>
+
+      </ul>
+
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h2>Introduction</h2>
+        </header>
+        <p><b>Cascading Style Sheets (CSS)</b> is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on
+          screen, on paper, in speech, or on other media.</p>
+        <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the
+          latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version.</p>
+        <p>From CSS3, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of
+          versioning the CSS specification, W3C now periodically takes a snapshot of the latest stable state of the CSS specification.</p>
+      </section>
+
+      <section id="Key_Resources" class="main-section">
+        <header>
+          <h2>Key Resources</h2>
+        </header>
+        <ul>
+          <li>
+            <p>CSS Introduction</p>
+            <p>If you're new to web development, be sure to read our CSS basics article to learn what CSS is and how to use it.</p>
+          </li>
+          <li>
+            <p>CSS Tutorials</p>
+            <p>Our CSS learning area contains a wealth of tutorials to take you from beginner level to proficiency, covering all the fundamentals.</p>
+          </li>
+          <li>
+            <p>CSS Reference</p>
+            <p>Our exhaustive CSS reference for seasoned Web developers describes every property and concept of CSS.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="Tutorials" class="main-section">
+        <header>
+          <h2>Tutorials</h2>
+        </header>
+        <p>Our CSS Learning Area features multiple modules that teach CSS from the ground up — no previous knowledge required.</p>
+        <ul>
+          <li>
+            <p>CSS first steps</p>
+            <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module
+              provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
+          </li>
+          <li>
+            <p>CSS building blocks</p>
+            <p>This module carries on where CSS first steps left off — now you've gained familiarity with the language and its syntax, and got some basic experience with using it, it's time to dive a bit deeper. This module looks at the cascade and
+              inheritance, all the selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more.</p>
+            <p>The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more specific disciplines like text styling and CSS layout.</p>
+          </li>
+          <li>
+            <p>CSS styling text</p>
+            <p>With the basics of the CSS language covered, the next CSS topic for you to concentrate on is styling text — one of the most common things you'll do with CSS. Here we look at text styling fundamentals, including setting font, boldness,
+              italics, line and letter spacing, drop shadows, and other text features. We round off the module by looking at applying custom fonts to your page, and styling lists and links.</p>
+          </li>
+          <li>
+            <p>CSS layout</p>
+            <p>At this point we've already looked at CSS fundamentals, how to style text, and how to style and manipulate the boxes that your content sits inside. Now it's time to look at how to place your boxes in the right place in relation to the
+              viewport, and to each other. We have covered the necessary prerequisites so we can now dive deep into CSS layout, looking at different display settings, modern layout tools like flexbox, CSS grid, and positioning, and some of the legacy
+              techniques you might still want to know about.</p>
+          </li>
+          <li>
+            <p>Use CSS to solve common problems</p>
+            <p>This module provides links to sections of content explaining how to use CSS to solve common problems when creating a web page.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="Reference" class="main-section">
+        <header>
+          <h2>Reference</h2>
+        </header>
+        <p>CSS reference: This exhaustive reference for seasoned Web developers describes every property and concept of CSS.</p>
+        <h3>Style rule syntax</h3>
+        <code>selectors-list ::=
+          &nbsp;selectors-list {
+          &nbsp;&nbsp;properties-list
+          &nbsp;}
+        </code>
+        <p>... where :</p>
+        <code>selectors-list ::=
+          &nbsp;selector[:pseudo-class] [::pseudo-element]
+          &nbsp;[, selectors-list]</code>
+        <code>properties-list ::=
+          &nbsp;[property : value] [; properties-list]
+        </code>
+        <p>See the index of selectors, pseudo-classes, and pseudo-elements below. The syntax for each specified value depends on the data type defined for each specified property.</p>
+        <h3>Style rule examples</h3>
+        <code>strong {
+          &nbsp;color: red;
+          }</code>
+        <code>div.menu-bar li:hover > ul {
+          &nbsp;display: block;
+          }</code>
+      </section>
+
+      <section id="Source" class="main-section">
+        <header>
+          <h2>Source</h2>
+        </header>
+        <p>The content of this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN</a>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
