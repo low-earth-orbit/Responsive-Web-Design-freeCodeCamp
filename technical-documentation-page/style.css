@@ -73,6 +73,10 @@ code {
     margin-left: 0;
   }
 
+  #navbar ul {
+    background-color: inherit;
+  }
+
   #navbar li {
     float: left;
     background-color: #f1f1f1;
