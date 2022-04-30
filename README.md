@@ -1,6 +1,6 @@
 # Project List
 
-Five freeCodeCamp Responsive Web Design projects using pure HTML + CSS based on listed user stories.
+Five freeCodeCamp Responsive Web Design projects using plain HTML + CSS.
 
 - Survey Form: [Page](https://low-earth-orbit.github.io/Responsive-Web-Design-freeCodeCamp/survey-form/) | [User Stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 
@@ -13,7 +13,7 @@ Five freeCodeCamp Responsive Web Design projects using pure HTML + CSS based on 
 - Personal Portfolio Webpage: [Page](https://low-earth-orbit.github.io/Responsive-Web-Design-freeCodeCamp/personal-portfolio-webpage/) | [User Stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
 
 # Certificate
-[Link](#) to my certificate
+[Link](https://www.freecodecamp.org/certification/leohong/responsive-web-design) to my certificate
 
 # Responsive Web Design
 
