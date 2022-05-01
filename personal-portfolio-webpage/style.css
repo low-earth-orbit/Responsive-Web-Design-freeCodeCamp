@@ -176,17 +176,16 @@ a:hover {
   overflow: hidden;
 }
 
-#gallery ul::after {
+/* #gallery ul::after {
     content: '';
     display: block;
     flex-grow: 10;
-  }
+  } */
 
-/*
 #gallery ul li {
   height: 30rem;
   flex-grow: 1;
-} */
+}
 
 #gallery ul li img {
   margin: 0;
