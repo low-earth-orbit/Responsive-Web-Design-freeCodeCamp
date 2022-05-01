@@ -2,17 +2,14 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   max-width: 180rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   text-align: center;
   color: #112B3C;
+  margin: 0 auto;
+  padding: 0;
 }
 
 h1 {
