@@ -3,6 +3,7 @@
 }
 
 body {
+  min-width: 22rem;
   max-width: 180rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -10,6 +11,11 @@ body {
   color: #112B3C;
   margin: 0 auto;
   padding: 0;
+}
+
+section {
+  margin: auto;
+  scroll-margin-top: 3rem;
 }
 
 h1 {
@@ -94,10 +100,6 @@ a:hover {
   height: 100vh;
 }
 
-section {
-  margin: auto;
-}
-
 /* about */
 #about {
   padding: auto 20%;
@@ -155,7 +157,7 @@ section {
 
 /* gallery */
 #gallery {
-  overflow:hidden;
+  /*  */
 }
 
 #gallery p {
@@ -171,19 +173,20 @@ section {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  overflow:hidden;
-  &:after {
+  overflow: hidden;
+}
+
+#gallery ul::after {
     content: '';
     display: block;
     flex-grow: 10;
   }
 
-}
-
+/*
 #gallery ul li {
   height: 30rem;
   flex-grow: 1;
-}
+} */
 
 #gallery ul li img {
   margin: 0;
@@ -191,7 +194,6 @@ section {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-
 }
 
 /* contact */
@@ -220,7 +222,6 @@ footer {
   #navbar-flex {
     padding: 1rem 0;
   }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -233,14 +234,12 @@ footer {
   .padding {
     padding: 2rem 3rem;
   }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .padding {
     padding: 3rem 5rem;
   }
-
 }
 
 @media (min-width: 1200px) {
