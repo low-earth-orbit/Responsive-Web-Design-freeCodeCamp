@@ -1,15 +1,11 @@
 body {
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.8;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-}
-
-h1 {
-  color: purple;
 }
 
 #body-wrapper {
@@ -63,7 +59,7 @@ code {
     border-radius: 0.25rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   #navbar {
     position: relative;
     width: 100%;
